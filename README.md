@@ -16,3 +16,9 @@ https://grimrose.github.io/scala-fukuoka-2017
 ```sh
 sbt previewSite
 ```
+
+## publish
+
+```sh
+sbt clean make-site ghpagesPushSite
+```
